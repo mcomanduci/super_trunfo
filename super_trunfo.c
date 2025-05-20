@@ -14,7 +14,7 @@ int main()
     // Carta 1
     printf("Cadastro da carta 1:\n");
     printf("Digite o estado: (A a H): ");
-    scanf(" %c", &estado1); // Espaço antes de %c para consumir '\n'
+    scanf(" %c", &estado1);
 
     printf("Digite o código da carta: ");
     scanf("%s", codigo1);
